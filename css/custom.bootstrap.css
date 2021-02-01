@@ -1,0 +1,96 @@
+@font-face{
+    font-family: opensans;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face{
+    font-family: tatto;
+    src: url(../fonts/StarellaTattooDeco_PERSONAL_USE.ttf);
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-family-tatto{
+    font-family: tatto !important;
+}
+.font-family-opensans{
+    font-family: opensans;
+}
+.font-family{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.no-radius{
+    border-radius: 0px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.container{
+    max-width: 1400px !important;
+    margin: auto;
+}
+/* Home-slider css  */
+.opacity{
+    opacity: 1 !important;
+    
+}
+.join-btn{
+    color: #fff;
+    font-weight: 700;
+    border: 1px #fff solid;
+    box-sizing: border-box;
+    padding: 4px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    background: transparent;
+    transition: background-color .2s;
+    margin-top: 4px;
+}
+.join-btn:hover{
+    background-color: #1dbf73;
+    border: 1px #1dbf73 solid;
+}
+.slide-items-1{
+ background-image: url(../images/home-slider/bg-hero-3-1792-x1.jpg);
+ background-size: contain;
+}
+.slide-items-2{
+    background-image: url(../images/home-slider/bg-hero-2-1792-x1.jpg);
+    background-size: contain;
+}
+.slide-items-3{
+    background-image: url(../images/home-slider/bg-hero-1-1792-x1.webp);
+    background-size: contain;
+}
+.slide-items-4{
+    background-image: url(../images/home-slider/bg-hero-5-1792-x1.jpg);
+    background-size: contain;
+}
+.slide-items-5{
+    background-image: url(../images/home-slider/bg-hero-4-1792-x1.jpg);
+    background-size: contain;
+}
+
+/* Slick SLider Button Customization  */
+ .slick-prev,.slick-next{
+     position: absolute !important;
+     z-index: 345243;
+     width: 45px;
+     height: 45px;
+     border-radius: 50%;
+     background: white;
+     color: black;
+     border: 1px solid white;
+     box-shadow: 1px 14px 25px rgb(128, 128, 128);
+
+ }
+ .slick-next{
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+ .slick-prev{
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+ }

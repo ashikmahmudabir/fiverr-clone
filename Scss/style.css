@@ -1,0 +1,121 @@
+.home-slider {
+  height: 720px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box; }
+  .home-slider .slider-wrapper .slider-inner .slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity .8s; }
+    .home-slider .slider-wrapper .slider-inner .slide .designation {
+      position: absolute;
+      bottom: 30px;
+      right: 220px; }
+  .home-slider .home-slider-content .row .col-md-6 .home-slider-text {
+    padding: 150px 0px; }
+    .home-slider .home-slider-content .row .col-md-6 .home-slider-text h1 {
+      font-weight: 550;
+      line-height: 65px;
+      font-size: 45px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      outline: none; }
+      .home-slider .home-slider-content .row .col-md-6 .home-slider-text h1 i {
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif; }
+    .home-slider .home-slider-content .row .col-md-6 .home-slider-text form ::placeholder {
+      color: #c2c7ca;
+      font-size: 16px; }
+    .home-slider .home-slider-content .row .col-md-6 .home-slider-text form .form-group .search-bar span {
+      padding-left: 16px;
+      padding-top: 10px;
+      border-radius: 5px 0px 0px 5px; }
+      .home-slider .home-slider-content .row .col-md-6 .home-slider-text form .form-group .search-bar span svg {
+        color: #c2c7ca; }
+    .home-slider .home-slider-content .row .col-md-6 .home-slider-text form .form-group .search-bar input {
+      width: 76% !important; }
+      .home-slider .home-slider-content .row .col-md-6 .home-slider-text form .form-group .search-bar input:focus {
+        box-shadow: none; }
+    .home-slider .home-slider-content .row .col-md-6 .home-slider-text form .form-group .search-bar button {
+      border: none;
+      background: #20b670;
+      color: white;
+      font-weight: bold;
+      padding: 0px 25px;
+      border-radius: 0px 5px 5px 0px;
+      transition: 0.5s; }
+      .home-slider .home-slider-content .row .col-md-6 .home-slider-text form .form-group .search-bar button:hover {
+        background: #149e5e; }
+
+.services-section .services-wrapper .services-inner .services-title h2 {
+  color: rgba(47, 43, 43, 0.945); }
+.services-section .services-wrapper .services-inner .services-content .services {
+  display: flex;
+  justify-content: space-between; }
+  .services-section .services-wrapper .services-inner .services-content .services .services-items {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-right: 25px; }
+    .services-section .services-wrapper .services-inner .services-content .services .services-items:hover {
+      opacity: 0.8; }
+
+.fiverr-quality-section {
+  background: #f1fdf7;
+  padding: 80px 0px; }
+  .fiverr-quality-section .fiverr-quality-wrapper .fiverr-quality-inner .row .col-md-5 .fiverr-quality-text {
+    padding: 10px 0px; }
+  .fiverr-quality-section .fiverr-quality-wrapper .fiverr-quality-inner .row .col-md-6 .fiverr-quality-video-area .fiverr-quality-video .quality-video-link span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.507);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 18px 0px;
+    padding-left: 0px;
+    margin-left: 9px;
+    padding-left: 5px; }
+
+.expo-market-section .expo-market-wrapper .expo-market-inner .expo-market-content .row a {
+  color: #222325;
+  text-align: center;
+  position: relative;
+  display: block; }
+  .expo-market-section .expo-market-wrapper .expo-market-inner .expo-market-content .row a::after {
+    content: "";
+    position: absolute;
+    top: 69px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    padding: 0 0 8px;
+    width: 48px;
+    border-bottom: 2px solid #c5c6c9;
+    transition: border-color .2s ease-in-out,padding .2s ease-in-out;
+    transition: all 0.2s; }
+  .expo-market-section .expo-market-wrapper .expo-market-inner .expo-market-content .row a:hover::after {
+    width: 90px;
+    padding: 0 20px 8px !important;
+    border-color: #1dbf73 !important; }
+  .expo-market-section .expo-market-wrapper .expo-market-inner .expo-market-content .row a .explore-market-wrap img {
+    width: 50px;
+    margin: 0px 15px; }
+
+.fiverr-business-section {
+  background: #0D084D;
+  padding: 80px 0px; }
+
+/*# sourceMappingURL=style.css.map */
