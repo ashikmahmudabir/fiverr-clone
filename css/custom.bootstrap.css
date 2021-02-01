@@ -34,6 +34,14 @@ body{
     opacity: 1 !important;
     
 }
+.category{
+    transform: scaleY(0);
+    transition: transform 0.05s;
+    
+}
+.showCategory{
+    transform: scaleY(1) !important;
+}
 .join-btn{
     color: #fff;
     font-weight: 700;
@@ -45,6 +53,13 @@ body{
     background: transparent;
     transition: background-color .2s;
     margin-top: 4px;
+}
+.join-btn-fixed{
+  border: 1px solid #1dbf73;
+  color: #1dbf73;
+}
+.join-btn-fixed:hover{
+    color: #fff;
 }
 .join-btn:hover{
     background-color: #1dbf73;
